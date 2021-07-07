@@ -1,0 +1,26 @@
+--GLobal.json
+Comandos de versão: dotnet --list-sdks || dotnet --info || dotnet --version  
+Instalar por CLI: dotnet new globaljson --sdk-version 3.0.100
+Docuemntação: https://docs.microsoft.com/en-us/dotnet/core/tools/global-json?tabs=netcore3x
+
+--Criar Projeto
+dotnet new webapi -n ProEventos.API
+ 
+--Compilar e rodar Projeto
+dotnet run
+dotnet watch run -- Atualizações automáticas ao alterar código 
+
+--Swagger
+https://localhost:5001/swagger/index.html
+
+--Instalar certificado para confiar na máquina https
+dotnet dev-certs https --trust
+
+--
+dotnet new git
+
+--
+git add .
+
+--
+git commit -m "Seção 2: Dotnet 5"
